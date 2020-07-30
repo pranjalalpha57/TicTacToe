@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tictactoe.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_1_pl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Player 1: 0"
+            android:textSize="20sp"
+            android:freezesText="true" />
+
+        <TextView
+            android:id="@+id/txt_1_pl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_1_pl1"
+            android:layout_marginTop="10dp"
+            android:text="Player 2: 0"
+            android:textSize="20sp"
+            android:freezesText="true" />
+        <Button
+            android:id="@+id/Btn_rst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="15dp"
+            android:text="RESET"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Btn_00"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:freezesText="true" />
+
+        <Button
+            android:id="@+id/Btn_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:id="@+id/Btn_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Btn_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:id="@+id/Btn_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:id="@+id/Btn_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Btn_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:id="@+id/Btn_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:id="@+id/Btn_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>
